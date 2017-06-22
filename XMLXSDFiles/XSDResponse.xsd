@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3schools.com/EdwindeRoos"
+	elementFormDefault="qualified"
+    xmlns="http://www.w3schools.com/EdwindeRoos XSDResponse.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+	<xs:element name="BMI" type="xs:float"/>
+	<xs:annotation>
+		<xs:appinfo>Response documentatie</xs:appinfo>
+		<xs:documentation xml:lang="nl">
+		Dit is de response van de berekening van het BMI.
+		In de service wordt door middel van de lengte en het gewicht het BMI berekend.
+		Deze waarde is een kommagetal dus wordt door middel van een float in de request teruggestuurd.
+		</xs:documentation>
+	</xs:annotation>
+</xs:schema>

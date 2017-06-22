@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BMIvalues xmlns="http://www.w3schools.com/EdwindeRoos"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.w3schools.com/EdwindeRoos XSDRequest.xsd">
+	<length>1.80</length>
+	<weight>70</weight>
+</BMIvalues>
