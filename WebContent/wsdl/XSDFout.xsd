@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3schools.com/EdwindeRoos XSDFout.xsd" elementFormDefault="qualified" targetNamespace="http://www.w3schools.com/EdwindeRoos">
+    
+<xs:element name="Error">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Input" type="xs:string"/>
+			<xs:element name="ErrorMessage" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+
+<xs:annotation>
+	<xs:appinfo>Fout documentatie</xs:appinfo>
+	<xs:documentation xml:lang="nl">
+		Dit is de beschrijving van een foutmelding.
+		In de foutmelding wordt de input gegeven een een string met de foutmelding erin.
+	</xs:documentation>
+</xs:annotation>
+
+</xs:schema>

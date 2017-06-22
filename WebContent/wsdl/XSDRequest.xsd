@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3schools.com/EdwindeRoos XSDRequest.xsd" elementFormDefault="qualified" targetNamespace="http://www.w3schools.com/EdwindeRoos">
+    
+<xs:element name="BMIvalues">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="length" type="xs:float"/>
+			<xs:element name="weight" type="xs:float"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+
+<xs:annotation>
+	<xs:appinfo>Request documentatie</xs:appinfo>
+	<xs:documentation xml:lang="nl">
+		Dit is de beschrijving van het request.
+		In dit request wordt er een complextype BMNvalues gevraagd met daarin de waarde length en weigth.
+		De waarden van length en weight worden opgeslagen in het standaard type float zodat hier makkelijk en nauwkeurig mee gerekend kan worden.
+		Met behulp van deze waarden wordt het BMI berekent en met de request teruggestuurd
+	</xs:documentation>
+</xs:annotation>
+
+</xs:schema>

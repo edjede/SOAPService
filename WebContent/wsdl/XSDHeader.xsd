@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3schools.com/EdwindeRoos XSDHeader.xsd" elementFormDefault="qualified" targetNamespace="http://www.w3schools.com/EdwindeRoos">
+    
+<xs:element name="dateCreated" type="xs:date"/>
+
+
+<xs:annotation>
+	<xs:appinfo>header documentatie</xs:appinfo>
+	<xs:documentation xml:lang="nl">
+		Dit is de beschrijving van de header.
+		In de header van een soap bericht staat informatie over het soap bericht.
+		In dit geval moet de datum wanneer het soap bericht wordt gemaakt worden weergegeven.
+	</xs:documentation>
+</xs:annotation>
+
+</xs:schema>
